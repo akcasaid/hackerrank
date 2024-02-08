@@ -13,5 +13,6 @@ complex_number = complex(1+2j)
 
 # Kutupsal koordinatlara dönüştür ve yazdır
 r, phi = convert_to_polar(complex_number)
-print(f"{r:.3f}")
-print(f"{phi:.3f}")
+#print(f"{r:.3f}")
+#print(f"{phi:.3f}")
+print(*cmath.polar(complex(input())), sep='\n')
